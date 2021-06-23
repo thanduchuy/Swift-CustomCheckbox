@@ -1,0 +1,6 @@
+framework module Pods_Checkbox {
+  umbrella header "Pods-Checkbox-umbrella.h"
+
+  export *
+  module * { export * }
+}

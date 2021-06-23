@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03250FC3405C7900CCD96412 /* Pods_Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7F88CD8D7D4460C512CAC3 /* Pods_Checkbox.framework */; };
+		B5AD4FF196F6ACF96447F904 /* Pods_Checkbox_CheckboxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 444B51F8D25F340C6C4B8E40 /* Pods_Checkbox_CheckboxUITests.framework */; };
+		C229DCE826836BCC0025782F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229DCE726836BCC0025782F /* AppDelegate.swift */; };
+		C229DCEA26836BCC0025782F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229DCE926836BCC0025782F /* SceneDelegate.swift */; };
+		C229DCEC26836BCC0025782F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229DCEB26836BCC0025782F /* ViewController.swift */; };
+		C229DCEF26836BCC0025782F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C229DCED26836BCC0025782F /* Main.storyboard */; };
+		C229DCF126836BCE0025782F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C229DCF026836BCE0025782F /* Assets.xcassets */; };
+		C229DCF426836BCE0025782F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C229DCF226836BCE0025782F /* LaunchScreen.storyboard */; };
+		C229DCFF26836BCE0025782F /* CheckboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229DCFE26836BCE0025782F /* CheckboxTests.swift */; };
+		C229DD0A26836BCE0025782F /* CheckboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229DD0926836BCE0025782F /* CheckboxUITests.swift */; };
+		C2E28DFF26836E6D0013ABC6 /* CustomCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E28DFE26836E6D0013ABC6 /* CustomCheckbox.swift */; };
+		DE0CF7DD8F691E72E06348B3 /* Pods_CheckboxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F83D91AF4CAE3C84BEBEC606 /* Pods_CheckboxTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C229DCFB26836BCE0025782F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C229DCDC26836BCC0025782F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C229DCE326836BCC0025782F;
+			remoteInfo = Checkbox;
+		};
+		C229DD0626836BCE0025782F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C229DCDC26836BCC0025782F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C229DCE326836BCC0025782F;
+			remoteInfo = Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E553FB8C56159C91EF404B6 /* Pods-Checkbox-CheckboxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkbox-CheckboxUITests.debug.xcconfig"; path = "Target Support Files/Pods-Checkbox-CheckboxUITests/Pods-Checkbox-CheckboxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32E97ABAB4616A2541FA91EA /* Pods-Checkbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkbox.debug.xcconfig"; path = "Target Support Files/Pods-Checkbox/Pods-Checkbox.debug.xcconfig"; sourceTree = "<group>"; };
+		3314679A4BC67DF71BD2D465 /* Pods-Checkbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkbox.release.xcconfig"; path = "Target Support Files/Pods-Checkbox/Pods-Checkbox.release.xcconfig"; sourceTree = "<group>"; };
+		3E7F88CD8D7D4460C512CAC3 /* Pods_Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		444B51F8D25F340C6C4B8E40 /* Pods_Checkbox_CheckboxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Checkbox_CheckboxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		595DF097E611902D39AB1B61 /* Pods-CheckboxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckboxTests.debug.xcconfig"; path = "Target Support Files/Pods-CheckboxTests/Pods-CheckboxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E3A5A8B534B5A33C3C6CF66 /* Pods-Checkbox-CheckboxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Checkbox-CheckboxUITests.release.xcconfig"; path = "Target Support Files/Pods-Checkbox-CheckboxUITests/Pods-Checkbox-CheckboxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C229DCE426836BCC0025782F /* Checkbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C229DCE726836BCC0025782F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C229DCE926836BCC0025782F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C229DCEB26836BCC0025782F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C229DCEE26836BCC0025782F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C229DCF026836BCE0025782F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C229DCF326836BCE0025782F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C229DCF526836BCE0025782F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C229DCFA26836BCE0025782F /* CheckboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C229DCFE26836BCE0025782F /* CheckboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxTests.swift; sourceTree = "<group>"; };
+		C229DD0026836BCE0025782F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C229DD0526836BCE0025782F /* CheckboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C229DD0926836BCE0025782F /* CheckboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxUITests.swift; sourceTree = "<group>"; };
+		C229DD0B26836BCE0025782F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E28DFE26836E6D0013ABC6 /* CustomCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckbox.swift; sourceTree = "<group>"; };
+		F83D91AF4CAE3C84BEBEC606 /* Pods_CheckboxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckboxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDEC5813BD13E1A4CEF44EE /* Pods-CheckboxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckboxTests.release.xcconfig"; path = "Target Support Files/Pods-CheckboxTests/Pods-CheckboxTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C229DCE126836BCC0025782F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03250FC3405C7900CCD96412 /* Pods_Checkbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DCF726836BCE0025782F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0CF7DD8F691E72E06348B3 /* Pods_CheckboxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DD0226836BCE0025782F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AD4FF196F6ACF96447F904 /* Pods_Checkbox_CheckboxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6039C8C35279A99F9C4571A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32E97ABAB4616A2541FA91EA /* Pods-Checkbox.debug.xcconfig */,
+				3314679A4BC67DF71BD2D465 /* Pods-Checkbox.release.xcconfig */,
+				1E553FB8C56159C91EF404B6 /* Pods-Checkbox-CheckboxUITests.debug.xcconfig */,
+				8E3A5A8B534B5A33C3C6CF66 /* Pods-Checkbox-CheckboxUITests.release.xcconfig */,
+				595DF097E611902D39AB1B61 /* Pods-CheckboxTests.debug.xcconfig */,
+				FEDEC5813BD13E1A4CEF44EE /* Pods-CheckboxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C229DCDB26836BCC0025782F = {
+			isa = PBXGroup;
+			children = (
+				C229DCE626836BCC0025782F /* Checkbox */,
+				C229DCFD26836BCE0025782F /* CheckboxTests */,
+				C229DD0826836BCE0025782F /* CheckboxUITests */,
+				C229DCE526836BCC0025782F /* Products */,
+				6039C8C35279A99F9C4571A0 /* Pods */,
+				F4FCA251BDA3DE13FCB7CBBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C229DCE526836BCC0025782F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C229DCE426836BCC0025782F /* Checkbox.app */,
+				C229DCFA26836BCE0025782F /* CheckboxTests.xctest */,
+				C229DD0526836BCE0025782F /* CheckboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C229DCE626836BCC0025782F /* Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				C229DCE726836BCC0025782F /* AppDelegate.swift */,
+				C229DCE926836BCC0025782F /* SceneDelegate.swift */,
+				C229DCEB26836BCC0025782F /* ViewController.swift */,
+				C229DCED26836BCC0025782F /* Main.storyboard */,
+				C229DCF026836BCE0025782F /* Assets.xcassets */,
+				C229DCF226836BCE0025782F /* LaunchScreen.storyboard */,
+				C229DCF526836BCE0025782F /* Info.plist */,
+				C2E28DFE26836E6D0013ABC6 /* CustomCheckbox.swift */,
+			);
+			path = Checkbox;
+			sourceTree = "<group>";
+		};
+		C229DCFD26836BCE0025782F /* CheckboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				C229DCFE26836BCE0025782F /* CheckboxTests.swift */,
+				C229DD0026836BCE0025782F /* Info.plist */,
+			);
+			path = CheckboxTests;
+			sourceTree = "<group>";
+		};
+		C229DD0826836BCE0025782F /* CheckboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C229DD0926836BCE0025782F /* CheckboxUITests.swift */,
+				C229DD0B26836BCE0025782F /* Info.plist */,
+			);
+			path = CheckboxUITests;
+			sourceTree = "<group>";
+		};
+		F4FCA251BDA3DE13FCB7CBBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E7F88CD8D7D4460C512CAC3 /* Pods_Checkbox.framework */,
+				444B51F8D25F340C6C4B8E40 /* Pods_Checkbox_CheckboxUITests.framework */,
+				F83D91AF4CAE3C84BEBEC606 /* Pods_CheckboxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C229DCE326836BCC0025782F /* Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C229DD0E26836BCE0025782F /* Build configuration list for PBXNativeTarget "Checkbox" */;
+			buildPhases = (
+				7D78E760B9629C014AD06045 /* [CP] Check Pods Manifest.lock */,
+				C229DCE026836BCC0025782F /* Sources */,
+				C229DCE126836BCC0025782F /* Frameworks */,
+				C229DCE226836BCC0025782F /* Resources */,
+				4E354E1B9B729DDA5864C097 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkbox;
+			productName = Checkbox;
+			productReference = C229DCE426836BCC0025782F /* Checkbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C229DCF926836BCE0025782F /* CheckboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C229DD1126836BCE0025782F /* Build configuration list for PBXNativeTarget "CheckboxTests" */;
+			buildPhases = (
+				17AA5A5DF6E1E39E9C3162FC /* [CP] Check Pods Manifest.lock */,
+				C229DCF626836BCE0025782F /* Sources */,
+				C229DCF726836BCE0025782F /* Frameworks */,
+				C229DCF826836BCE0025782F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C229DCFC26836BCE0025782F /* PBXTargetDependency */,
+			);
+			name = CheckboxTests;
+			productName = CheckboxTests;
+			productReference = C229DCFA26836BCE0025782F /* CheckboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C229DD0426836BCE0025782F /* CheckboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C229DD1426836BCE0025782F /* Build configuration list for PBXNativeTarget "CheckboxUITests" */;
+			buildPhases = (
+				9A76DDE7961301D0EBA2E74B /* [CP] Check Pods Manifest.lock */,
+				C229DD0126836BCE0025782F /* Sources */,
+				C229DD0226836BCE0025782F /* Frameworks */,
+				C229DD0326836BCE0025782F /* Resources */,
+				A4B15D03981608EE5BD18377 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C229DD0726836BCE0025782F /* PBXTargetDependency */,
+			);
+			name = CheckboxUITests;
+			productName = CheckboxUITests;
+			productReference = C229DD0526836BCE0025782F /* CheckboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C229DCDC26836BCC0025782F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C229DCE326836BCC0025782F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C229DCF926836BCE0025782F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C229DCE326836BCC0025782F;
+					};
+					C229DD0426836BCE0025782F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C229DCE326836BCC0025782F;
+					};
+				};
+			};
+			buildConfigurationList = C229DCDF26836BCC0025782F /* Build configuration list for PBXProject "Checkbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C229DCDB26836BCC0025782F;
+			productRefGroup = C229DCE526836BCC0025782F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C229DCE326836BCC0025782F /* Checkbox */,
+				C229DCF926836BCE0025782F /* CheckboxTests */,
+				C229DD0426836BCE0025782F /* CheckboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C229DCE226836BCC0025782F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C229DCF426836BCE0025782F /* LaunchScreen.storyboard in Resources */,
+				C229DCF126836BCE0025782F /* Assets.xcassets in Resources */,
+				C229DCEF26836BCC0025782F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DCF826836BCE0025782F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DD0326836BCE0025782F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17AA5A5DF6E1E39E9C3162FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckboxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E354E1B9B729DDA5864C097 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Checkbox/Pods-Checkbox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Checkbox/Pods-Checkbox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Checkbox/Pods-Checkbox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D78E760B9629C014AD06045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Checkbox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A76DDE7961301D0EBA2E74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Checkbox-CheckboxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B15D03981608EE5BD18377 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Checkbox-CheckboxUITests/Pods-Checkbox-CheckboxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Checkbox-CheckboxUITests/Pods-Checkbox-CheckboxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Checkbox-CheckboxUITests/Pods-Checkbox-CheckboxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C229DCE026836BCC0025782F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C229DCEC26836BCC0025782F /* ViewController.swift in Sources */,
+				C2E28DFF26836E6D0013ABC6 /* CustomCheckbox.swift in Sources */,
+				C229DCE826836BCC0025782F /* AppDelegate.swift in Sources */,
+				C229DCEA26836BCC0025782F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DCF626836BCE0025782F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C229DCFF26836BCE0025782F /* CheckboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C229DD0126836BCE0025782F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C229DD0A26836BCE0025782F /* CheckboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C229DCFC26836BCE0025782F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C229DCE326836BCC0025782F /* Checkbox */;
+			targetProxy = C229DCFB26836BCE0025782F /* PBXContainerItemProxy */;
+		};
+		C229DD0726836BCE0025782F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C229DCE326836BCC0025782F /* Checkbox */;
+			targetProxy = C229DD0626836BCE0025782F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C229DCED26836BCC0025782F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C229DCEE26836BCC0025782F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C229DCF226836BCE0025782F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C229DCF326836BCE0025782F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C229DD0C26836BCE0025782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C229DD0D26836BCE0025782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C229DD0F26836BCE0025782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E97ABAB4616A2541FA91EA /* Pods-Checkbox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = Checkbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.Checkbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C229DD1026836BCE0025782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3314679A4BC67DF71BD2D465 /* Pods-Checkbox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = Checkbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.Checkbox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C229DD1226836BCE0025782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595DF097E611902D39AB1B61 /* Pods-CheckboxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = CheckboxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.CheckboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkbox.app/Checkbox";
+			};
+			name = Debug;
+		};
+		C229DD1326836BCE0025782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDEC5813BD13E1A4CEF44EE /* Pods-CheckboxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = CheckboxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.CheckboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checkbox.app/Checkbox";
+			};
+			name = Release;
+		};
+		C229DD1526836BCE0025782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E553FB8C56159C91EF404B6 /* Pods-Checkbox-CheckboxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = CheckboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.CheckboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checkbox;
+			};
+			name = Debug;
+		};
+		C229DD1626836BCE0025782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A5A8B534B5A33C3C6CF66 /* Pods-Checkbox-CheckboxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2Q8VQ7WJZ;
+				INFOPLIST_FILE = CheckboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = than.duc.huy.CheckboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Checkbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C229DCDF26836BCC0025782F /* Build configuration list for PBXProject "Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C229DD0C26836BCE0025782F /* Debug */,
+				C229DD0D26836BCE0025782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C229DD0E26836BCE0025782F /* Build configuration list for PBXNativeTarget "Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C229DD0F26836BCE0025782F /* Debug */,
+				C229DD1026836BCE0025782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C229DD1126836BCE0025782F /* Build configuration list for PBXNativeTarget "CheckboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C229DD1226836BCE0025782F /* Debug */,
+				C229DD1326836BCE0025782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C229DD1426836BCE0025782F /* Build configuration list for PBXNativeTarget "CheckboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C229DD1526836BCE0025782F /* Debug */,
+				C229DD1626836BCE0025782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C229DCDC26836BCC0025782F /* Project object */;
+}
